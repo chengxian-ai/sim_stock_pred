@@ -38,9 +38,16 @@ else
     interval="$2"
 fi
 
+if [ -z "$3" ]; then
+    save_root="/Users/chengxian/Desktop/buy_sell_images"
+else
+    save_root="$3"
+fi
+
 for symbol in "${symbols[@]}"
 do
 #    echo "$symbol"
-   python candle_dark.py --symbol $symbol --period ${period} --interval ${interval}
+#    python candle_dark.py --symbol $symbol --period ${period} --interval ${interval}
+   python candle_dark_doubao.py --symbol $symbol --period ${period} --interval ${interval} --save_root ${save_root}
 done
 echo "plot end..."
