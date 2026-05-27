@@ -215,7 +215,7 @@ def generate_plot(df, symbol, company_name, market_cap, period, interval, save_r
     )
     plt.close(fig)
     
-    print(f"Chart saved to: {save_path}")
+    # print(f"Chart saved to: {save_path}")
     return save_path
 
 def main(symbol='TSLA', period='1y', interval='1d', save_root='/Users/chengxian/Desktop/buy_sell_images'):
