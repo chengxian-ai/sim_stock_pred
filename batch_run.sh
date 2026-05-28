@@ -9,7 +9,7 @@ symbols=(
     'CORZ' 'CIFR' 'COHR' 'SEI' 'TSEM' 'RIOT' 'CRWV' 'LITE' # Leopold Aschenbrenner
     'BTBT' 'BVC' 'NAKA' 'FIG' 'CRCL' 'GEMI' 'XYZ' 'TRON' 'HOOD' 'BKKT' 'MSTR' 'ABTC' 'HUT' 'MARA' 'COIN' 'APLD' 'IREN' 'BLSH' 'BMNR' 'BTCS' 'BTBT' # stablecoin, cryptocoin, itcoin
     'RGTI' 'QUBT' 'IONQ' 'ARQQ' 'QMCO' 'QBTS' # quantum 
-    'SHOP' 'VZ' 'ENFN' 'S' 'CRWD' 'SE' 'SNOW' 'SOFI' 'DXYZ' 'DJT' 'GME' 'BKKT' 'SPOT' 'RUM' 'APP' 'GME' 'RBLX' 'OPEN' # software
+    'SHOP' 'VZ' 'S' 'CRWD' 'SE' 'SNOW' 'SOFI' 'DXYZ' 'DJT' 'GME' 'BKKT' 'SPOT' 'RUM' 'APP' 'GME' 'RBLX' 'OPEN' # software
     'ANET' 'PATH' 'IOT' 'GTLB' 'DASH' 'ORCL' 'NMAX' 'CRM' 'MNDY' 'MDB' 'DDOG' 'DBX' 'PANW' 'RDDT' 'TWLO' 'U' 'SNPS' # software
     'DOCN' 'PDYN' 'FSLY' 'KEEL' 'CLSK' 'GAME' 'AIIO' # software
     'RKLB' 'GE' 'HEI' 'SIDU' 'MNTS' 'RCAT' 'JOBY' 'BWXT' 'GE' 'EH' 'DFNS' 'AIRO' 'UMAC' 'VOYG' 'KULR' 'ACHR' # rocket
