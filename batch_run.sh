@@ -15,7 +15,7 @@ symbols=(
     'RKLB' 'GE' 'HEI' 'SIDU' 'MNTS' 'RCAT' 'JOBY' 'BWXT' 'GE' 'EH' 'DFNS' 'AIRO' 'UMAC' 'VOYG' 'KULR' 'ACHR' # rocket
     'LLY' 'NVO' 'VKTX' 'CRSP' 'ATNM' 'NCNA' 'RGC' 'WGS' 'GENB' 'HIMS' 'CELC' 'BMY' 'DRUG' 'ILMN' 'ELV' 'PFE' 'MRNA' # medical
     'NVO' 'ATNM' 'NVAX' 'RXRX' 'ONC' 'CRSP' 'VKTX' 'CAI' 'MDLN' 'LUNR' 'PSTV' # medical
-    'BIDU' 'JD' 'PDD' 'EDU' 'CHA' 'NIO' 'XPEV' 'LI' 'HSAI' 'GDS' 'PONY' 'BABA' 'KC' 'BILI' 'WRD' 'NIU' 'KC' # China
+    'BIDU' 'JD' 'PDD' 'EDU' 'CHA' 'NIO' 'XPEV' 'LI' 'HSAI' 'GDS' 'PONY' 'BABA' 'KC' 'BILI' 'WRD' 'NIU' # China
     'MU' 'SNDK' 'STX' 'WDC' 'SIMO' 'RMBS' # storage
     'MP' 'LAC' 'CRML' 'FCX' # metal
     'SATS' 'ASTS' 'HPE' 'ONDS' 'UI' 'AAOI' # communication
