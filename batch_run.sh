@@ -2,19 +2,19 @@
 
 symbols=(
     'MSFT' 'AAPL' 'NVDA' 'AMZN' 'META' 'GOOG' 'TSLA' 'AVGO' # 8 giants
-    'NRG' 'CEG' 'VST' 'NNE' 'LBRT' 'LEU' 'SMR' 'OKLO' # nuclear power
+    'NRG' 'CEG' 'VST' 'NNE' 'LBRT' 'LEU' 'SMR' 'OKLO' 'BNRG' 'USEG' # nuclear power
     'INOD' 'PLTR' 'VERI' 'UPST' 'SOUN' 'GDS' 'BBAI' 'CIFR' # AI
-    'BE' 'ENPH' 'SES' 'VTS' 'FSLR' 'AES' 'PLUG' 'TMDE' 'FLNC' 'JKS' 'ETN' 'NVT' 'EOSE' 'GEV' 'NVTS' 'QS' 'ARM' # AI electric power
-    'INTC' 'PXLW' 'APH' 'ALAB' 'QCOM' 'AMSC' 'AMAT' 'VRT' 'DELL' 'MRVL' 'TSM' 'NOK' 'ON' 'KLAC' 'ASML' 'AMD' 'SMCI' 'CRDO' 'LAES' 'CBRS' 'WOLF' 'BNC' 'POET' # semiconducter
+    'BE' 'ENPH' 'SES' 'VTS' 'FSLR' 'AES' 'PLUG' 'TMDE' 'FLNC' 'JKS' 'ETN' 'NVT' 'EOSE' 'GEV' 'NVTS' 'QS' 'ARM' 'MVST' # AI electric power
+    'INTC' 'PXLW' 'APH' 'ALAB' 'QCOM' 'AMSC' 'AMAT' 'VRT' 'DELL' 'MRVL' 'TSM' 'NOK' 'ON' 'KLAC' 'ASML' 'AMD' 'SMCI' 'CRDO' 'LAES' 'CBRS' 'WOLF' 'BNC' 'POET' 'GLW' # semiconducter
     'CORZ' 'CIFR' 'COHR' 'SEI' 'TSEM' 'RIOT' 'CRWV' 'LITE' # Leopold Aschenbrenner
-    'BTBT' 'BVC' 'NAKA' 'FIG' 'CRCL' 'GEMI' 'XYZ' 'TRON' 'HOOD' 'BKKT' 'MSTR' 'ABTC' 'HUT' 'MARA' 'COIN' 'APLD' 'IREN' 'BLSH' 'BMNR' 'BTCS' 'BTBT' # stablecoin, cryptocoin, itcoin
+    'BTBT' 'BVC' 'NAKA' 'FIG' 'CRCL' 'GEMI' 'XYZ' 'TRON' 'HOOD' 'BKKT' 'MSTR' 'ABTC' 'HUT' 'MARA' 'COIN' 'APLD' 'IREN' 'BLSH' 'BMNR' 'BTCS' 'BTBT' 'BTDR' # stablecoin, cryptocoin, bitcoin
     'RGTI' 'QUBT' 'IONQ' 'ARQQ' 'QMCO' 'QBTS' # quantum 
     'SHOP' 'VZ' 'S' 'CRWD' 'SE' 'SNOW' 'SOFI' 'DXYZ' 'DJT' 'GME' 'BKKT' 'SPOT' 'RUM' 'APP' 'GME' 'RBLX' 'OPEN' # software
-    'ANET' 'PATH' 'IOT' 'GTLB' 'DASH' 'ORCL' 'NMAX' 'CRM' 'MNDY' 'MDB' 'DDOG' 'DBX' 'PANW' 'RDDT' 'TWLO' 'U' 'SNPS' # software
-    'DOCN' 'PDYN' 'FSLY' 'KEEL' 'CLSK' 'GAME' 'AIIO' # software
-    'RKLB' 'GE' 'HEI' 'SIDU' 'MNTS' 'RCAT' 'JOBY' 'BWXT' 'GE' 'EH' 'DFNS' 'AIRO' 'UMAC' 'VOYG' 'KULR' 'ACHR' # rocket
-    'LLY' 'NVO' 'VKTX' 'CRSP' 'ATNM' 'NCNA' 'RGC' 'WGS' 'GENB' 'HIMS' 'CELC' 'BMY' 'DRUG' 'ILMN' 'ELV' 'PFE' 'MRNA' # medical
-    'NVO' 'ATNM' 'NVAX' 'RXRX' 'ONC' 'CRSP' 'VKTX' 'CAI' 'MDLN' 'LUNR' 'PSTV' # medical
+    'ANET' 'PATH' 'IOT' 'GTLB' 'DASH' 'ORCL' 'NMAX' 'CRM' 'MNDY' 'MDB' 'DDOG' 'DBX' 'PANW' 'RDDT' 'TWLO' 'U' 'SNPS' 'NBIS' # software
+    'DOCN' 'PDYN' 'FSLY' 'KEEL' 'CLSK' 'GAME' 'AIIO' 'NOW' 'ZENA' 'VIVO' 'NET' # software
+    'RKLB' 'GE' 'HEI' 'SIDU' 'MNTS' 'RCAT' 'JOBY' 'BWXT' 'GE' 'EH' 'DFNS' 'AIRO' 'UMAC' 'VOYG' 'KULR' 'ACHR' 'AVAV' 'KTOS' 'RKTO' 'MOB' 'DPRO' 'AXON' 'JTAI' 'RDW' # rocket
+    'LLY' 'NVO' 'VKTX' 'CRSP' 'ATNM' 'NCNA' 'RGC' 'WGS' 'GENB' 'HIMS' 'CELC' 'BMY' 'DRUG' 'ILMN' 'ELV' 'PFE' 'MRNA' 'ATPC' 'OMDA' 'HCTI' # medical
+    'NVO' 'ATNM' 'NVAX' 'RXRX' 'ONC' 'CRSP' 'VKTX' 'CAI' 'MDLN' 'LUNR' 'PSTV' 'TEM' 'SPRC' 'TDOC' 'IXHL' 'MYO' 'ARAY' 'AMWL' # medical
     'BIDU' 'JD' 'PDD' 'EDU' 'CHA' 'NIO' 'XPEV' 'LI' 'HSAI' 'GDS' 'PONY' 'BABA' 'KC' 'BILI' 'WRD' 'NIU' # China
     'MU' 'SNDK' 'STX' 'WDC' 'SIMO' 'RMBS' # storage
     'MP' 'LAC' 'CRML' 'FCX' # metal
@@ -23,6 +23,7 @@ symbols=(
     'UBER' 'INVZ' 'CYN' 'MBLY' 'LCID' 'STLA' 'RIVN' 'ECX' 'AUR' 'MVIS' # self-driving
     'STNE' 'CHYM' 'PYPL' 'AFRM' 'NU' # financial
     'RR' 'SERV' 'KITT' 'ARBE' # robot
+    'ASTC' # tech
 )
 
 # 设置默认值
