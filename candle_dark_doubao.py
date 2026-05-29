@@ -75,9 +75,9 @@ def fetch_stock_data(symbol, period, interval):
         raise ValueError(f"No data found for symbol: {symbol}")
     
     company_name = ticker_data.info.get("longName", symbol)
-    market_cap = ticker_data.info.get("marketCap", 0.0) / 1e8
+    market_cap = ticker_data.info.get("marketCap", 0.0) / 1e9  # 转换为亿
     
-    print(f"Fetched data: {symbol}, {company_name}, market_cap: {market_cap:.2f}亿")
+    print(f"Fetched data: {symbol}, {company_name}, market_cap: {market_cap:.2f} Billion")
     return df, company_name, market_cap
 
 def calculate_indicators(df):
@@ -170,7 +170,7 @@ def generate_plot(df, symbol, company_name, market_cap, period, interval, save_r
         volume=True,
         show_nontrading=False,
         style=s,
-        title=f'{company_name} ({market_cap:.2f}亿) - {symbol} [{period}-{interval}]',
+        title=f'{company_name} ({market_cap:.2f} B) - {symbol} [{period}-{interval}]',
         ylabel='Price',
         ylabel_lower='Volume',
         figsize=Config.FIG_SIZE,

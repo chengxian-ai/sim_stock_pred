@@ -74,9 +74,9 @@ def images_to_video(img_folder, output_path, fps=30, scale_factor=0.5):
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='将图片序列转换为视频，支持尺寸缩放')
-    parser.add_argument('-i', '--input', type=str, default='/Users/chengxian/Desktop/buy_sell_images/2026-05-28/1y-1d/',
+    parser.add_argument('-i', '--input', type=str, default='/Users/chengxian/Desktop/buy_sell_images/2026-05-26/1y-1d/',
                        help='输入图片文件夹路径')
-    parser.add_argument('-o', '--output', type=str, default='/Users/chengxian/Desktop/buy_sell_images/2026-05-28/1y-1d/output_video.mp4',
+    parser.add_argument('-o', '--output', type=str, default='/Users/chengxian/Desktop/buy_sell_images/2026-05-26/1y-1d/output_video_xxxx.mp4',
                        help='输出视频文件路径')
     parser.add_argument('--fps',type=int, default=25,
                        help='视频帧率，默认: 25')
