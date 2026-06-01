@@ -249,4 +249,15 @@ if __name__ == "__main__":
                         help='Root directory to save images')
     
     args = parser.parse_args()
+    # 计时开始
+    start_time = time.perf_counter()  # ✅ 推荐：高精度性能计数器
+
+    # 执行函数
     main(args.symbol, args.period, args.interval, args.save_root)
+
+    # 计时结束
+    end_time = time.perf_counter()
+    elapsed_time = end_time - start_time
+
+    print(f"函数执行耗时: {elapsed_time:.6f} 秒")
+    print(f"函数执行耗时: {elapsed_time*1000:.3f} 毫秒")
